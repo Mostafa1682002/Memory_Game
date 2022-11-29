@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="contorl-button">
+      <button>Start Game</button>
+    </div>
+    <div class="container">
+      <div class="container-info">
+        <p class="name">Hello : <span></span></p>
+        <p class="timer">
+          <span class="hour"></span>:<span class="minute"></span>:<span
+            class="second"
+          ></span>
+        </p>
+        <p class="tries">Tries : <span>0</span></p>
+      </div>
+      <div class="cont-game">
+        <div class="game-block" data-tec="angular">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-angular"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="angular">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-angular"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="github">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="github">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="Python">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="Python">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-python"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="react">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-react"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="react">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-react"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="css">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="css">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="glup">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-gulp"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="glup">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-gulp"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="laravel">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-laravel"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="laravel">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-laravel"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="php">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-php"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="php">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-php"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="html5">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="html5">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="vuejs">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+        </div>
+        <div class="game-block" data-tec="vuejs">
+          <div class="front"></div>
+          <div class="back">
+            <i class="fa-brands fa-vuejs"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="result-game">
+      <div class="contrnt-result">
+        <p class="state"></p>
+        <button class="again">Play Again</button>
+      </div>
+    </div>
+    <div class="audio">
+      <audio class="gameov" type="audio/mpeg" src="audio/gameover.wav"></audio>
+      <audio class="congr" type="audio/mpeg" src="audio/congr.mp3"></audio>
+      <audio class="loss" type="audio/mpeg" src="audio/loss.wav"></audio>
+      <audio class="win" type="audio/mpeg" src="audio/win.wav"></audio>
+    </div>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
