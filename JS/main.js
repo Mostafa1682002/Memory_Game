@@ -6,16 +6,14 @@ let starGame=document.querySelector(".contorl-button button");
     tries=document.querySelector(".container-info .tries span"),
     allBox=document.querySelectorAll(".cont-game .game-block"),
     contGame=document.querySelector(".cont-game"),
-    front=document.querySelectorAll(".game-block .front"),
-    back=document.querySelectorAll(".game-block .back"),
     resultGame=document.querySelector('.result-game'),
     statePlayer=document.querySelector('.result-game .state'),
     againPlay=document.querySelector('.again');
 
-let time=4*60*1000;
-let h,m,s,staTime;duration=1000,
+let time=2*60*1000;
+let h,m,s,staTime,
+    duration=1000,
     number=0;
-    
 window.onload=function(){
     showtime();
     starGame.onclick=function(){
